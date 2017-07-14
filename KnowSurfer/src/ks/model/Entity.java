@@ -5,17 +5,17 @@ import java.util.Map;
 
 public class Entity {
 
-	private Object id = null;
+	private String id = null;
 	private String name = null;
 	private String description = null;
 	
 	protected Map<String, Object> attributeValues = new HashMap<>();
 
-	public Object getId() {
+	public String getId() {
 		return id;
 	}
 
-	protected void setId(Object id) {
+	protected void setId(String id) {
 		this.id = id;
 	}
 
